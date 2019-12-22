@@ -1,0 +1,9 @@
+local robot_api = require("robot")
+ticker = 0
+while true do
+while(not detect(front:1))do
+	move(forward:1)
+end
+turn(clockwise:true)
+turn(clockwise:true)
+end
